@@ -23,13 +23,20 @@
 قمت بوضع المحركات الست و الازرار ولكل منهم وظيفة معينه 
 اللغات المستخدمة :html , css , js, php 
 
-index1.html
-Merge.css
-Merge.js
-Merge.php
-3d-robot-belyy-fon.jpg
-DB2
+1-index1.html
+
+2-Merge.css
+
+3-Merge.js
+
+4-Merge.php
+
+5-3d-robot-belyy-fon.jpg
+
+6-DB2
 
 
-واخيرا صورة من ال Mobile web view: 
+
+واخيرا صورة من ال Mobile web view:
+
 mobile web view.jpg
