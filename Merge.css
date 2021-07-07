@@ -1,0 +1,121 @@
+html{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),  url(3d-robot-belyy-fon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+}
+
+h1{
+    border-style: inset;
+    color: white;
+    border-color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 15%;
+
+}
+	.one{
+    color:white;
+    padding: 5px;
+    width: 40%;
+   
+    font: bold;
+	text-align: center;
+
+
+
+
+    }
+	.slide1 {
+    -webkit-appearance: none;
+    height: 70px;
+    width: 280px;
+    background: white ;
+    border-radius: 10px;
+    padding: 70px 65px 70 40px;
+    margin-left: 30px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s ;
+    transition:  opacity .2s;
+	text-align: center;
+    }
+    .slide1:hover{
+    opacity: 1;
+    }
+
+  .click
+        {
+            height: auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        min-height:10vh;
+        
+        }
+        .item{
+        padding: 10px;
+        }
+        .btn{
+        display: block;
+        border: 0;
+        font-size: 20px;
+        line-height: 1;
+        padding: 20 px 30px;
+        border-radius: 40px ;
+        background: royalblue;
+        color: seashell;
+        cursor: pointer;
+        transition: all 0.3s linear;
+
+
+        }
+        .btn:hover,
+        .btn:focus {
+        background: steelblue;
+        
+        
+        }
+        .btn:active{
+        background: mediumblue;
+        }
+    .con{
+	color:white;
+	display: block;
+    text-align: justify;
+
+	}
+
+.container{
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5%;
+    font-size: 10px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    height: 70px;
+    width:700px;
+    background: white ;
+    border-radius:5px;
+    padding: 60px;
+    margin-left: 10px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s ;
+    transition:  opacity .2s;
+	text-align: center;
+	margin-top: 10px;
+
+    }
+    .container:hover{
+    opacity: 1;
+    }
+
+
+.center{
+    margin-left: 10%;
+}
