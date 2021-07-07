@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Merge.css" />
+    <title>INTERFACE ROBOT</title>
+  </head>
+
+  <body>
+  
+    <header></header>
+    
+    <div class="one">
+    <h1 >Control Board</h1></div>
+  
+    <form id="myForm" action="Merge.php" method = "POST" >
+ 	 <p>
+     <h2 style="color:white">robotics control panel</h2>
+	
+      
+        <div class="slide1">
+        
+        <h4>Motor1</h4>
+        <input type="range" min = "0" max = "180" value="0" id = "myRange1" class = "slider" name = "v1">
+        <h4>Value: <span id = "value1"></span></h4>
+		</div>
+		<br>
+        <div class="slide1">
+      
+        <h4>Motor2</h4>
+        <input type="range" min = "0" max = "180" value="0" id = "myRange2" class = "slider" name = "v2">
+        <h4>Value: <span id = "value2"></span><h4>
+        </div>
+		<br>
+		<div class="slide1">
+       
+        <h4>Motor3</h4>
+        <input type="range" min = "0" max = "180" value="0" id = "myRange3" class = "slider" name = "v3">
+        <h4>Value: <span id = "value3"></span></h4>
+        </div>
+		<br>
+		<div class="slide1">
+      
+        <h4>Motor4</h4>
+        <input type="range" min = "0" max = "180" value="0" id = "myRange4" class = "slider" name = "v4">
+        <h4>Value: <span id = "value4"></span></h4>
+        </div>
+		<br>
+		<div class="slide1">
+       
+        <h4>Motor5</h4>
+        <input type="range" min = "0" max = "180" value="0" id = "myRange5" class = "slider" name = "v5">
+        <h4>Value: <span id = "value5"></span></h4>
+        </div>
+		<br>
+		<div class="slide1">
+       
+        <h4>Motor6</h4>
+        <input type="range" min = "0" max = "180" value="0" id = "myRange6" class = "slider" name = "v6">
+        <h4>Value: <span id = "value6"></span></h4>
+		</div>
+     <br>     <br>
+
+	     <div class="item">
+       <button type="button" value ="submit" name="save" class="btn" onclick="alert('saved')">save </button>  
+           </div>
+
+    <input type="submit" value = "RUN" name = go  style="font-size: 20px; background:royalblue;color: seashell; border-radius: 40px;" >
+
+<br><br>
+  <div class ="con">
+  <h2> Moving The Base</h2>  
+    </div>
+	
+	<div class = "container"> 
+            <div class = "center">
+			    <input type="submit" value = "Forward" name ="Forward"  style="font-size: 30px; background: #FFFFFF; border-radius: 40px;" >
+           <input type="submit" value = "Right" name ="ymen"  style="font-size: 40px; background: blue;color:white; border-radius: 50px;" > 
+           <input type="submit" value = "Stop" name ="Stop"  style="font-size: 30px; background: darkred; border-radius: 30px; color: white;" > 
+			    <input type="submit" value = "Left" name ="ysar"  style="font-size: 40px; background: blue; color:white;border-radius: 30px;" >
+			   <input type="submit" value = "Backward" name ="Backward"  style="font-size: 30px; background: #FFFFFF; border-radius: 40px;" >
+
+            </div>
+
+
+           </div>
+ </p>
+            </form>
+  </body>
+  <script src="Merge.js"></script>
+</html>
