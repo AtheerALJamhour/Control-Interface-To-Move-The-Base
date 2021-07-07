@@ -8,11 +8,15 @@
 
 استخدمت من اللغات (HTML ,CSS , PHP)حيث ان كل كود ينفذ مهمة ما 
 
-Index.html
-S.css
-Index.php
-Robotics-1 (1).jpg
-DataB
+1-Index.html 
+
+2- S.css
+
+3- Index.php
+
+4- Robotics-1 (1).jpg
+
+5- DataB
 
 
 بعد ذلك دمجت كلن من لوحة التحكم بالذراع مع لوحة التحكم بالقاعدة في واجهة واحدة :
